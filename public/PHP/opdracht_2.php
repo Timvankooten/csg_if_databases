@@ -6,9 +6,9 @@ TYP HIERONDER JOUW PHPCODE
 ****************************/
 
 $tekst="Ik heb een bijbaantje bij de Aldi. De Aldi betaalt goed.";
-echo "$tekst";
-//$tekst=str_replace('Aldi','Albert Heijn',$tekst);
-echo '<h4>$tekst</h4>';
+echo $tekst;
+$tekst=str_replace('Aldi','Albert Heijn',$tekst);
+echo "<h1> $tekst </h1>";
 
 /****************************
 EINDE VAN JOUW PHPCODE

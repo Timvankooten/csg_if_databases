@@ -9,10 +9,10 @@ error_reporting(E_ALL);
 // Merk op dat elke regel eindigt met ;
 
 // variabelen beginnen met een dollar-teken
-$voornaam = "Augustinus";   // tekst met dubbele aanhalingstekens
-$achternaam = 'van Hippo';  // tekst met enkele aanhalingstekens
-$geboren = 354;             // integer
-$leeftijd = 2017-$geboren;  // variabele op basis van berekening
+$voornaam = "Tim";   // tekst met dubbele aanhalingstekens
+$achternaam = 'van kooten';  // tekst met enkele aanhalingstekens
+$geboren = 2004;             // integer
+$leeftijd = 2021-$geboren;  // variabele op basis van berekening
 $dagen = $leeftijd*365;     // berekening
 $volledige_naam = $voornaam." ".$achternaam;
 ?>
